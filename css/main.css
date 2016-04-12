@@ -1,0 +1,58 @@
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+figcaption {
+  color: #e3212f;
+}
+
+h1 {
+  color: #e3212f;
+  text-transform: uppercase;
+}
+
+.numbers {
+  width: 80px;
+}
+
+/* pie-graph */
+
+.st0 {
+  fill: #1b1c23;
+}
+
+.st1 {
+  fill: #e2252f;
+}
+
+.st2 {
+  fill: none;
+}
+
+.st3 {
+  fill: #e3212f;
+}
+
+.st5 {
+  font-size: 16.3996px;
+}
+
+.st6 {
+  fill: #231f20;
+}
+
+.st8 {
+  font-size: 12.663px;
+}
+
+
+/*phone animations*/
+
+.run-1 {
+  transform: translateX(-100px);
+}
+
+.run-in {
+  transform: translateX(0);
+  animation: runin 500ms ease-in forwards;
+}
