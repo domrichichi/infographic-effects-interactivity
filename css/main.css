@@ -54,7 +54,7 @@ h1 {
 
 .run-in {
 
-  animation: runin 1s forwards;
+  animation: runin .9s forwards;
 }
 
 @keyframes runin {
@@ -74,7 +74,7 @@ h1 {
 
 .run-in-2 {
 
-  animation: runin .8s forwards;
+  animation: runin .5s forwards;
 }
 
 .run-3 {
@@ -89,12 +89,13 @@ h1 {
 
 /*phones*/
 
-
-
 .phone-click {
   opacity:1;
 }
 
 .make-red {
-  fill: #f00;
+  fill: #e21e2e;
+  transition: 1s;
 }
+
+/*m41*/
