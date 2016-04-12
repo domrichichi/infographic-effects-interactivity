@@ -46,13 +46,55 @@ h1 {
 }
 
 
-/*phone animations*/
+/*runner*/
 
 .run-1 {
   transform: translateX(-100px);
 }
 
 .run-in {
-  transform: translateX(0);
-  animation: runin 500ms ease-in forwards;
+
+  animation: runin 1s forwards;
+}
+
+@keyframes runin {
+
+  0% {
+    transform: translateX(-100px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.run-2 {
+  transform: translateX(-100px);
+}
+
+.run-in-2 {
+
+  animation: runin .8s forwards;
+}
+
+.run-3 {
+  transform: translateX(-100px);
+}
+
+.run-in-3 {
+
+  animation: runin .8s forwards;
+}
+
+
+/*phones*/
+
+
+
+.phone-click {
+  opacity:1;
+}
+
+.make-red {
+  fill: #f00;
 }
