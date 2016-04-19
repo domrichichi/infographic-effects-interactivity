@@ -99,3 +99,39 @@ h1 {
 }
 
 /*m41*/
+
+/*chart*/
+
+/*chart-bars*/
+
+.bars {
+height:0;
+}
+
+/*barbell*/
+
+/*left side*/
+
+#two-left {
+  transform: translateY(-100px);
+}
+
+#three-left {
+  transform: translateY(-100px);
+}
+
+#four-left {
+  transform: translateY(-100px);
+}
+
+#two-right {
+  transform: translateY(-100px);
+}
+
+#three-right {
+  transform: translateY(-100px);
+}
+
+#four-right {
+  transform: translateY(-100px);
+}

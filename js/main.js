@@ -30,7 +30,7 @@ var updateTick = function () {
   }
 };
 
-console.log(lengthMax);
+// chartvar
 
 // runners
 
@@ -57,4 +57,13 @@ $phones.on('click', function () {
 
 // fifteen
 
-updateLength();
+$fifteen.one('click', function () {
+  $redPhones.toggleClass();
+  updateLength();
+})
+
+// chart
+
+$runners.on('click', function () {
+  $run.toggleClass('run-in');
+});
