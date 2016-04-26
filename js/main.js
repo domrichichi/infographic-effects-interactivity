@@ -5,7 +5,6 @@ var $run = $('.run-1');
 var $runTwo = $('.run-2');
 var $runThree = $('.run-3');
 
-
 // phonesvar
 
 var $phones = $('.phones');
@@ -17,22 +16,8 @@ var $redPhones = $('.red-phones');
 var $fifteen = $('#fifteen');
 var lengthMax = parseInt($fifteen.attr('data-max'), 10);
 var current = 0;
-
-var updateLength = function () {
-  current += 1;
-  $fifteen.html(current);
-  updateTick();
-};
-
-var updateTick = function () {
-  if (current < lengthMax) {
-    requestAnimationFrame(updateLength);
-  }
-};
-
-// chartvar
-
-// piechartvar
+var updateTick;
+var updateLength;
 
 // barbellvar
 
@@ -44,6 +29,20 @@ var $leftFour = $('.four-left');
 var $rightTwo = $('.two-right');
 var $rightThree = $('.three-right');
 var $rightFour = $('.four-right');
+
+// counting
+
+updateTick = function () {
+  if (current < lengthMax) {
+    requestAnimationFrame(updateLength);
+  }
+};
+
+updateLength = function () {
+  current += 1;
+  $fifteen.html(current);
+  updateTick();
+};
 
 // runners
 
@@ -58,7 +57,6 @@ $runners.on('click', function () {
 $runners.on('click', function () {
   $runThree.toggleClass('run-in-3');
 });
-
 
 // mousein=hover
 
@@ -102,7 +100,3 @@ $weights.on('click', function () {
 $weights.on('click', function () {
   $rightFour.toggleClass('fall-in-four');
 });
-
-// wifi
-
-
