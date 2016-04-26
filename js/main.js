@@ -66,7 +66,7 @@ $runners.on('click', function () {
 
 $phones.on('click', function () {
   $redPhones.toggleClass('make-red');
-});
+})
 
 // fifteen
 
