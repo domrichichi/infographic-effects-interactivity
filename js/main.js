@@ -30,6 +30,10 @@ var $rightTwo = $('.two-right');
 var $rightThree = $('.three-right');
 var $rightFour = $('.four-right');
 
+$('.bar-line').on('click', function (e) {
+  $('.bars').addClass('grow');
+});
+
 // counting
 
 updateTick = function () {

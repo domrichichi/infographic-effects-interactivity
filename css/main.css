@@ -146,3 +146,13 @@ h1 {
 .four-right {
   transform: translateY(-100px);
 }
+
+.bars {
+  transform: scaleY(0);
+}
+
+.grow {
+  transform: scaleY(1);
+  transition: 1s;
+  transform-origin: top;
+}
