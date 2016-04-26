@@ -32,6 +32,19 @@ var updateTick = function () {
 
 // chartvar
 
+// piechartvar
+
+// barbellvar
+
+var $weights = $('.weights');
+var $leftTwo = $('.two-left');
+var $leftThree = $('.three-left');
+var $leftFour = $('.four-left');
+
+var $rightTwo = $('.two-right');
+var $rightThree = $('.three-right');
+var $rightFour = $('.four-right');
+
 // runners
 
 $runners.on('click', function () {
@@ -53,17 +66,43 @@ $runners.on('click', function () {
 
 $phones.on('click', function () {
   $redPhones.toggleClass('make-red');
-})
+});
 
 // fifteen
 
 $fifteen.one('click', function () {
   $redPhones.toggleClass();
   updateLength();
-})
+});
 
 // chart
 
-$runners.on('click', function () {
-  $run.toggleClass('run-in');
+// barbell
+
+$weights.on('click', function () {
+  $leftTwo.toggleClass('fall-in-two');
 });
+
+$weights.on('click', function () {
+  $leftThree.toggleClass('fall-in-three');
+});
+
+$weights.on('click', function () {
+  $leftFour.toggleClass('fall-in-four');
+});
+
+$weights.on('click', function () {
+  $rightTwo.toggleClass('fall-in-two');
+});
+
+$weights.on('click', function () {
+  $rightThree.toggleClass('fall-in-three');
+});
+
+$weights.on('click', function () {
+  $rightFour.toggleClass('fall-in-four');
+});
+
+// wifi
+
+

@@ -34,7 +34,7 @@ h1 {
 }
 
 .st5 {
-  font-size: 16.3996px;
+  font-size: 1rem;
 }
 
 .st6 {
@@ -42,7 +42,7 @@ h1 {
 }
 
 .st8 {
-  font-size: 12.663px;
+  font-size:  0.75rem;
 }
 
 
@@ -110,28 +110,92 @@ height:0;
 
 /*barbell*/
 
-/*left side*/
+@keyframes fallin {
 
-#two-left {
+  0% {
+    transform: translateY(-100px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.two-left {
   transform: translateY(-100px);
 }
 
-#three-left {
+.fall-in-two {
+  animation: fallin .2s forwards;
+}
+
+.three-left {
   transform: translateY(-100px);
 }
 
-#four-left {
+.fall-in-three {
+  animation: fallin .3s forwards;
+}
+
+.four-left {
   transform: translateY(-100px);
 }
 
-#two-right {
+.fall-in-four {
+  animation: fallin .5s forwards;
+}
+
+.two-right {
   transform: translateY(-100px);
 }
 
-#three-right {
+.three-right {
   transform: translateY(-100px);
 }
 
-#four-right {
+.four-right {
   transform: translateY(-100px);
+}
+
+
+/*wifi router*/
+
+.cls-1 {
+  fill:none;
+}
+
+.cls-2 {
+  fill:#e30a2c;
+}
+
+.wave-4 {
+color:white;
+}
+
+.wave-in-4 {
+animation: wavein 3s forwards;
+}
+
+.wave-3 {
+
+}
+
+.wave-in-3 {
+
+}
+
+.wave-2 {
+
+}
+
+.wave-in-2 {
+
+}
+
+.wave-1 {
+
+}
+
+.wave-in-1 {
+
 }
