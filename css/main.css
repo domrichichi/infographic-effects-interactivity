@@ -149,10 +149,10 @@ h1 {
 
 .bars {
   transform: scaleY(0);
+  transform-origin: 0 42px;
 }
 
 .grow {
   transform: scaleY(1);
-  transition: 1s;
-  transform-origin: top;
+  transition: 0.5s;
 }
